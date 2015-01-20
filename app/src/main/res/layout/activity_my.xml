@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity">
+
+      <Button
+      android:id="@+id/login"
+      android:text="Zaloguj"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/numbers"
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="5dp"
+      />
+
+    <Button
+        android:id="@+id/addrecipe"
+        android:text="Dodaj przepis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/refresh"
+        android:text="Odśwież"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addrecipe"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
